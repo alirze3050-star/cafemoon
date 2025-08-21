@@ -1,0 +1,1186 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "قهوه‌های گرم",
+      "slug": "hot_coffees",
+      "suggested_pairings": ["desserts", "special_desserts"],
+      "description": "نوشیدنی‌های گرم با پایه قهوه برای شروع روز یا استراحت"
+    },
+    {
+      "id": 2,
+      "name": "نوشیدنی‌های گرم  ",
+      "slug": "hot_non_coffees",
+      "suggested_pairings": ["breakfasts", "desserts"],
+      "description": "نوشیدنی‌های گرم بدون قهوه، آرامش‌بخش و متنوع"
+    },
+    {
+      "id": 3,
+      "name": "چای‌ها و دمنوش‌ها",
+      "slug": "teas_and_herbals",
+      "suggested_pairings": ["breakfasts", "desserts"],
+      "description": "چای‌ها و دمنوش‌های سنتی و مدرن"
+    },
+    {
+      "id": 4,
+      "name": "قهوه‌های سرد",
+      "slug": "cold_coffees",
+      "suggested_pairings": ["desserts", "ice_packs"],
+      "description": "قهوه‌های خنک برای روزهای گرم"
+    },
+    {
+      "id": 5,
+      "name": "شیک ها   ",
+      "slug": "cold_non_coffees",
+      "suggested_pairings": ["desserts", "hot_foods"],
+      "description": "نوشیدنی‌های خنک و بدون قهوه، تازه و انرژی‌زا"
+    },
+    {
+      "id": 6,
+      "name": "کیک ، کروسان ، وافل",
+      "slug": "desserts",
+      "suggested_pairings": ["hot_coffees", "cold_coffees"],
+      "description": "دسرهای ترد و شیرین برای هر زمان"
+    },
+    {
+      "id": 7,
+      "name": " آبمیوه طبیعی ، موکتل ها ،نوشیدنی  پایه شیر",
+      "slug": "juice",
+      "suggested_pairings": ["hot_coffees", "cold_coffees"],
+      "description": "دسرهای لوکس و ترکیبی برای تجربه‌ای خاص"
+    },
+    {
+      "id": 8,
+      "name": "صبحانه",
+      "slug": "breakfasts",
+      "suggested_pairings": ["hot_coffees", "teas_and_herbals"],
+      "description": "صبحانه‌های مقوی برای شروع روز"
+    },
+    {
+      "id": 9,
+      "name": "غذاهای گرم",
+      "slug": "hot_foods",
+      "suggested_pairings": ["cold_non_coffees", "teas_and_herbals"],
+      "description": "غذاهای گرم و خوشمزه برای وعده‌های اصلی"
+    },
+    {
+      "id": 10,
+      "name": "آیس پک‌ها",
+      "slug": "ice_packs",
+      "suggested_pairings": ["cold_non_coffees"],
+      "description": "آیس پک‌های خنک و پرطعم"
+    },
+    {
+      "id": 11,
+      "name": "معجون ",
+      "slug": "potion",
+      "suggested_pairings": ["desserts", "hot_coffees"],
+      "description": "نوشیدنی‌ها و دسرهای ویژه هر فصل"
+    }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "name": "اسپرسو دوبل",
+      "price": 45000,
+      "category": "hot_coffees",
+      "image": "espresso.png",
+      "description": "دو شات قهوه غلیظ برای انرژی صبحگاهی",
+      "tags": ["#پایه_قهوه", "#قوی", "#مناسب_صبح"]
+    },
+    {
+      "id": 102,
+      "name": "اسپرسو سینگل",
+      "price": 35000,
+      "category": "hot_coffees",
+      "image": "espresso.png",
+      "description": "یک شات قهوه با طعم متعادل",
+      "tags": ["#پایه_قهوه", "#سبک", "#مناسب_صبح"]
+    },
+    {
+      "id": 103,
+      "name": "لاته",
+      "price": 90000,
+      "category": "hot_coffees",
+      "image": "latte.jpg",
+      "description": "قهوه ملایم با شیر بخارپز و فوم نرم",
+      "tags": ["#پایه_قهوه", "#ملایم", "#مناسب_میان_وعده"]
+    },
+    {
+      "id": 104,
+      "name": "آمریکانو",
+      "price": 55000,
+      "category": "hot_coffees",
+      "image": "americano.jpg",
+      "description": "اسپرسو با آب داغ، ساده و کلاسیک",
+      "tags": ["#پایه_قهوه", "#کلاسیک"]
+    },
+    {
+      "id": 105,
+      "name": "کاپوچینو",
+      "price": 90000,
+      "category": "hot_coffees",
+      "image": "cappuccino.jpg",
+      "description": "ترکیب اسپرسو، شیر و فوم غلیظ",
+      "tags": ["#پایه_قهوه", "#فوم_دار"]
+    },
+    {
+      "id": 106,
+      "name": "موکا",
+      "price": 110000,
+      "category": "hot_coffees",
+      "image": "mocha.png",
+      "description": "قهوه با طعم شکلات، شیرین و گرم",
+      "tags": ["#پایه_قهوه", "#شکلاتی"]
+    },
+    {
+      "id": 107,
+      "name": "کارامل ماکیاتو",
+      "price": 105000,
+      "category": "hot_coffees",
+      "image": "caramel_macchiato.jpg",
+      "description": "شیر و قهوه با طعم کارامل شیرین",
+      "tags": ["#پایه_قهوه", "#شیرین"]
+    },
+    {
+      "id": 108,
+      "name": "فندق ماکیاتو",
+      "price": 105000,
+      "category": "hot_coffees",
+      "image": "hazelnut_macchiato.jpg",
+      "description": "قهوه با طعم فندق گرم و دلپذیر",
+      "tags": ["#پایه_قهوه", "#فندق"]
+    },
+    {
+      "id": 109,
+      "name": "نارگیل ماکیاتو",
+      "price": 105000,
+      "category": "hot_coffees",
+      "image": "coconut_macchiato.jpg",
+      "description": "قهوه با طعم نارگیل استوایی",
+      "tags": ["#پایه_قهوه", "#نارگیل"]
+    },
+    {
+      "id": 110,
+      "name": "آیریش ماکیاتو",
+      "price": 105000,
+      "category": "hot_coffees",
+      "image": "irish_macchiato.jpg",
+      "description": "قهوه با طعم ملایم آیریش",
+      "tags": ["#پایه_قهوه", "#آیریش"]
+    },
+    {
+      "id": 111,
+      "name": "کُن هیلو ",
+      "price": 55000,
+      "category": "hot_coffees",
+      "image": "conhillo.jpg",
+      "description": "قهوه سنتی با طعمی خاص",
+      "tags": ["#پایه_قهوه", "#سنتی"]
+    },
+    {
+      "id": 112,
+      "name": "کُنپانا",
+      "price": 65000,
+      "category": "hot_coffees",
+      "image": "conpana.jpg",
+      "description": "قهوه با طعمی متفاوت و جذاب",
+      "tags": ["#پایه_قهوه", "#خاص"]
+    },
+    {
+      "id": 113,
+      "name": "لاته زعفران",
+      "price": 95000,
+      "category": "hot_coffees",
+      "image": "saffron_latte.jpg",
+      "description": "لاته با طعم زعفران ایرانی",
+      "tags": ["#پایه_قهوه", "#زعفران"]
+    },
+    {
+      "id": 114,
+      "name": "لاته عسل",
+      "price": 97000,
+      "category": "hot_coffees",
+      "image": "honey_latte.jpg",
+      "description": "لاته شیرین با عسل طبیعی",
+      "tags": ["#پایه_قهوه", "#عسل"]
+    },
+    {
+      "id": 115,
+      "name": "لاته ماچا",
+      "price": 110000,
+      "category": "hot_coffees",
+      "image": "matcha_latte.png",
+      "description": "لاته با طعم ماچا ژاپنی",
+      "tags": ["#پایه_قهوه", "#ماچا"]
+    },
+    {
+      "id": 201,
+      "name": "شیر فندق",
+      "price": 80000,
+      "category": "hot_non_coffees",
+      "image": "hazelnut_milk.jpg",
+      "description": "شیر گرم با طعم فندق، آرامش‌بخش",
+      "tags": ["#غیر_قهوه", "#فندق", "#آرامش_بخش"]
+    },
+    {
+      "id": 202,
+      "name": "پینک چاکلت",
+      "price": 90000,
+      "category": "hot_non_coffees",
+      "image": "pink_chocolate.jpg",
+      "description": "شکلات داغ صورتی، جذاب و شیرین",
+      "tags": ["#غیر_قهوه", "#شکلات", "#شیرین"]
+    },
+    {
+      "id": 203,
+      "name": "هات چاکلت",
+      "price": 115000,
+      "category": "hot_non_coffees",
+      "image": "hot_chocolate.jpg",
+      "description": "شکلات داغ غلیظ برای روزهای سرد",
+      "tags": ["#غیر_قهوه", "#شکلات", "#گرم"]
+    },
+    {
+      "id": 204,
+      "name": "نسکافه",
+      "price": 90000,
+      "category": "hot_non_coffees",
+      "image": "nescafe.webp",
+      "description": "نسکافه گرم و کلاسیک",
+      "tags": ["#غیر_قهوه", "#نسکافه", "#مناسب_صبح"]
+    },
+    {
+      "id": 205,
+      "name": "شیر نارگیل",
+      "price": 80000,
+      "category": "hot_non_coffees",
+      "image": "coconut_milk.jpg",
+      "description": "شیر گرم با طعم نارگیل استوایی",
+      "tags": ["#غیر_قهوه", "#نارگیل", "#آرامش_بخش"]
+    },
+    {
+      "id": 206,
+      "name": "وایت چاکلت",
+      "price": 90000,
+      "category": "hot_non_coffees",
+      "image": "white_chocolate.jpg",
+      "description": "شکلات سفید داغ و خامه‌ای",
+      "tags": ["#غیر_قهوه", "#شکلات", "#شیرین"]
+    },
+    {
+      "id": 301,
+      "name": "چای سیاه",
+      "price": 35000,
+      "category": "teas_and_herbals",
+      "image": "black_tea.jpg",
+      "description": "چای سیاه معطر و کلاسیک",
+      "tags": ["#غیر_قهوه", "#چای", "#کلاسیک"]
+    },
+    {
+      "id": 302,
+      "name": "چای ماسالا",
+      "price": 90000,
+      "category": "teas_and_herbals",
+      "image": "masala_tea.jpg",
+      "description": "چای ادویه‌دار هندی، گرم و دلپذیر",
+      "tags": ["#غیر_قهوه", "#چای", "#ادویه_دار"]
+    },
+    {
+      "id": 303,
+      "name": "چای ماچا",
+      "price": 80000,
+      "category": "teas_and_herbals",
+      "image": "matcha_tea.jpg",
+      "description": "چای سبز ژاپنی با طعم غنی",
+      "tags": ["#غیر_قهوه", "#چای", "#ماچا"]
+    },
+    {
+      "id": 304,
+      "name": "چای کرک (هل)",
+      "price": 85000,
+      "category": "teas_and_herbals",
+      "image": "kark_tea.jpg",
+      "description": "چای سنتی با طعم هل معطر",
+      "tags": ["#غیر_قهوه", "#چای", "#هل"]
+    },
+    {
+      "id": 305,
+      "name": "دمنوش لاغری (نعناع، گل محمدی، هل)",
+      "price": 60000,
+      "category": "teas_and_herbals",
+      "image": "slimming_herbal_tea.jpg",
+      "description": "دمنوشی برای متابولیسم بهتر",
+      "tags": ["#غیر_قهوه", "#دمنوش", "#لاغری"]
+    },
+    {
+      "id": 306,
+      "name": "دمنوش لاغری+ (چای ترش، آویشن)",
+      "price": 65000,
+      "category": "teas_and_herbals",
+      "image": "slimming_herbal_tea.jpg",
+      "description": "دمنوش قوی برای کاهش وزن",
+      "tags": ["#غیر_قهوه", "#دمنوش", "#لاغری"]
+    },
+    {
+      "id": 307,
+      "name": "دمنوش لاغری++ (نعناع، چای سبز، لیمو)",
+      "price": 65000,
+      "category": "teas_and_herbals",
+      "image": "slimming_herbal_tea.jpg",
+      "description": "ترکیبی انرژی‌زا برای سلامتی",
+      "tags": ["#غیر_قهوه", "#دمنوش", "#لاغری"]
+    },
+    {
+      "id": 308,
+      "name": "دمنوش آرامش (گل گاو زبان، بابونه، سنبل الطیب)",
+      "price": 65000,
+      "category": "teas_and_herbals",
+      "image": "slimming_herbal_tea.jpg",
+      "description": "دمنوشی برای آرامش و خواب بهتر",
+      "tags": ["#غیر_قهوه", "#دمنوش", "#آرامش_بخش"]
+    },
+    {
+      "id": 309,
+      "name": "دمنوش آرامش+ (به لیمو، زعفران، هل)",
+      "price": 70000,
+      "category": "teas_and_herbals",
+      "image": "slimming_herbal_tea.jpg",
+      "description": "ترکیبی لوکس برای آرامش",
+      "tags": ["#غیر_قهوه", "#دمنوش", "#آرامش_بخش"]
+    },
+    {
+      "id": 310,
+      "name": "دمنوش دارچین (دارچین، زنجبیل)",
+      "price": 60000,
+      "category": "teas_and_herbals",
+      "image": "slimming_herbal_tea.jpg",
+      "description": "دمنوش گرم و انرژی‌زا",
+      "tags": ["#غیر_قهوه", "#دمنوش", "#گرم"]
+    },
+    {
+      "id": 401,
+      "name": "آیس کارامل ماکیاتو",
+      "price": 105000,
+      "category": "cold_coffees",
+      "image": "ice_caramel_macchiato.jpg",
+      "description": "قهوه سرد با طعم کارامل شیرین",
+      "tags": ["#پایه_قهوه", "#خنک_کننده", "#کارامل"]
+    },
+    {
+      "id": 402,
+      "name": "آیس آمریکانو",
+      "price": 65000,
+      "category": "cold_coffees",
+      "image": "ice_americano.jpg",
+      "description": "قهوه سرد ساده و کلاسیک",
+      "tags": ["#پایه_قهوه", "#خنک_کننده", "#کلاسیک"]
+    },
+    {
+      "id": 403,
+      "name": "آیس لاته",
+      "price": 100000,
+      "category": "cold_coffees",
+      "image": "ice_latte.jpg",
+      "description": "لاته خنک با شیر سرد",
+      "tags": ["#پایه_قهوه", "#خنک_کننده", "#ملایم"]
+    },
+    {
+      "id": 404,
+      "name": "آیس موکا",
+      "price": 115000,
+      "category": "cold_coffees",
+      "image": "ice_mocha.jpg",
+      "description": "قهوه سرد با طعم شکلات خنک",
+      "tags": ["#پایه_قهوه", "#خنک_کننده", "#شکلاتی"]
+    },
+    {
+      "id": 405,
+      "name": "فراپاچینو",
+      "price": 95000,
+      "category": "cold_coffees",
+      "image": "frappuccino.jpg",
+      "description": "قهوه سرد خامه‌ای و خوشمزه",
+      "tags": ["#پایه_قهوه", "#خنک_کننده", "#خامه_دار"]
+    },
+    {
+      "id": 406,
+      "name": "آیس نسکافه",
+      "price": 90000,
+      "category": "cold_coffees",
+      "image": "ice_nescafe.jpg",
+      "description": "نسکافه خنک برای روزهای گرم",
+      "tags": ["#پایه_قهوه", "#خنک_کننده", "#نسکافه"]
+    },
+    {
+      "id": 407,
+      "name": "آفوگاتو",
+      "price": 115000,
+      "category": "cold_coffees",
+      "image": "affogato.jpg",
+      "description": "اسپرسو سرد با بستنی وانیلی",
+      "tags": ["#پایه_قهوه", "#خنک_کننده", "#بستنی"]
+    },
+    {
+      "id": 408,
+      "name": "اورنج کافی",
+      "price": 0,
+      "category": "cold_coffees",
+      "image": "orange_coffee.jpg",
+      "description": "قهوه سرد با طعم پرتقال تازه",
+      "tags": ["#پایه_قهوه", "#خنک_کننده", "#پرتقال"]
+    },
+    {
+      "id": 409,
+      "name": "آیس آیریش ماکیاتو",
+      "price": 97000,
+      "category": "cold_coffees",
+      "image": "ice_latte_irish.jpg",
+      "description": "لاته سرد با طعم آیریش ملایم",
+      "tags": ["#پایه_قهوه", "#خنک_کننده", "#آیریش"]
+    },
+    {
+      "id": 410,
+      "name": "آیس نارگیل ماکیاتو",
+      "price": 97000,
+      "category": "cold_coffees",
+      "image": "ice_latte_coconut.png",
+      "description": "لاته سرد با طعم نارگیل استوایی",
+      "tags": ["#پایه_قهوه", "#خنک_کننده", "#نارگیل"]
+    },
+    {
+      "id": 411,
+      "name": "آیس ماچا",
+      "price": 130000,
+      "category": "cold_coffees",
+      "image": "ice_matcha.jpg",
+      "description": "ماچا سرد و انرژی‌زا",
+      "tags": ["#پایه_قهوه", "#خنک_کننده", "#ماچا"]
+    },
+    {
+      "id": 410,
+      "name": "آیس فندق ماکیاتو",
+      "price": 97000,
+      "category": "cold_coffees",
+      "image": "ice_latte_fandoq.png",
+      "description": "لاته سرد با طعم نارگیل استوایی",
+      "tags": ["#پایه_قهوه", "#خنک_کننده", "#نارگیل"]
+    },
+    {
+      "id": 701,
+      "name": "موهیتو",
+      "price": 110000,
+      "category": "juice",
+      "image": "mojito.png",
+      "description": "نوشیدنی خنک با نعناع و لیمو",
+      "tags": ["#غیر_قهوه", "#خنک_کننده", "#نعناع"]
+    },
+    {
+      "id": 702,
+      "name": "رد موهیتو",
+      "price": 135000,
+      "category": "juice",
+      "image": "red_mojito.jpg",
+      "description": "موهیتو با طعم توت قرمز",
+      "tags": ["#غیر_قهوه", "#خنک_کننده", "#توت"]
+    },
+    {
+      "id": 503,
+      "name": "شیک شکلات",
+      "price": 130000,
+      "category": "cold_non_coffees",
+      "image": "chocolate_shake.jpg",
+      "description": "شیک غلیظ با طعم شکلات خنک",
+      "tags": ["#غیر_قهوه", "#شیک", "#شکلاتی"]
+    },
+    {
+      "id": 504,
+      "name": "شیک نوتلا",
+      "price": 140000,
+      "category": "cold_non_coffees",
+      "image": "nutella_shake.jpg",
+      "description": "شیک خامه‌ای با نوتلا",
+      "tags": ["#غیر_قهوه", "#شیک", "#نوتلا"]
+    },
+    {
+      "id": 505,
+      "name": "شیک توت فرنگی",
+      "price": 125000,
+      "category": "cold_non_coffees",
+      "image": "strawberry_shake.jpg",
+      "description": "شیک تازه با طعم توت فرنگی",
+      "tags": ["#غیر_قهوه", "#شیک", "#توت_فرنگی"]
+    },
+    {
+      "id": 506,
+      "name": "شیک تیرامیسو",
+      "price": 125000,
+      "category": "cold_non_coffees",
+      "image": "tiramisu_shake.png",
+      "description": "شیک با طعم دسر تیرامیسو",
+      "tags": ["#غیر_قهوه", "#شیک", "#تیرامیسو"]
+    },
+    {
+      "id": 507,
+      "name": "شیک اسنیکرز",
+      "price": 145000,
+      "category": "cold_non_coffees",
+      "image": "snickers_shake.jpg",
+      "description": "شیک با طعم شکلات اسنیکرز",
+      "tags": ["#غیر_قهوه", "#شیک", "#اسنیکرز"]
+    },
+    {
+      "id": 508,
+      "name": "شیک موز شکلات",
+      "price": 150000,
+      "category": "cold_non_coffees",
+      "image": "chocolate_banana_shake.png",
+      "description": "ترکیب موز و شکلات خنک",
+      "tags": ["#غیر_قهوه", "#شیک", "#موز"]
+    },
+    {
+      "id": 509,
+      "name": "شیک نسکافه",
+      "price": 120000,
+      "category": "cold_non_coffees",
+      "image": "nescafe_shake.jpg",
+      "description": "شیک با طعم قهوه نسکافه",
+      "tags": ["#غیر_قهوه", "#شیک", "#نسکافه"]
+    },
+    {
+      "id": 510,
+      "name": "شیک معجون",
+      "price": 155000,
+      "category": "cold_non_coffees",
+      "image": "potion_shake.png",
+      "description": "شیک مقوی و پر انرژی",
+      "tags": ["#غیر_قهوه", "#شیک", "#معجون"]
+    },
+    {
+      "id": 511,
+      "name": "شیک لوتوس",
+      "price": 140000,
+      "category": "cold_non_coffees",
+      "image": "lotus_shake.webp",
+      "description": "شیک با طعم بیسکویت لوتوس",
+      "tags": ["#غیر_قهوه", "#شیک", "#لوتوس"]
+    },
+    {
+      "id": 512,
+      "name": "شیک اورئو",
+      "price": 130000,
+      "category": "cold_non_coffees",
+      "image": "oreo_shake.jpg",
+      "description": "شیک با طعم بیسکویت اورئو",
+      "tags": ["#غیر_قهوه", "#شیک", "#اورئو"]
+    },
+    {
+      "id": 513,
+      "name": "شیک موز",
+      "price": 120000,
+      "category": "cold_non_coffees",
+      "image": "banana_shake.jpg",
+      "description": "شیک خنک با طعم موز تازه",
+      "tags": ["#غیر_قهوه", "#شیک", "#موز"]
+    },
+    {
+      "id": 514,
+      "name": "شیک طالبی",
+      "price": 135000,
+      "category": "cold_non_coffees",
+      "image": "melon_shake.jpg",
+      "description": "شیک تازه با طعم طالبی",
+      "tags": ["#غیر_قهوه", "#شیک", "#طالبی"]
+    },
+    {
+      "id": 515,
+      "name": "شیک بلوبری",
+      "price": 125000,
+      "category": "cold_non_coffees",
+      "image": "blueberry_shake.jpg",
+      "description": "شیک با طعم بلوبری تازه",
+      "tags": ["#غیر_قهوه", "#شیک", "#بلوبری"]
+    },
+    {
+      "id": 516,
+      "name": "شیر موز",
+      "price": 85000,
+      "category": "juice",
+      "image": "banana_milk.jpg",
+      "description": "میکس شیر و موز تازه و خنک",
+      "tags": ["#غیر_قهوه", "#آبمیوه", "#موز"]
+    },
+    {
+      "id": 517,
+      "name": "شیر موز بستنی",
+      "price": 105000,
+      "category": "juice",
+      "image": "banana_milk.jpg",
+      "description": "شیر موز با بستنی خامه‌ای",
+      "tags": ["#غیر_قهوه", "#آبمیوه", "#بستنی"]
+    },
+    {
+      "id": 518,
+      "name": "شیر موز پسته",
+      "price": 135000,
+      "category": "juice",
+      "image": "banana_pistachio_milk.jpg",
+      "description": "شیر موز با طعم پسته ایرانی",
+      "tags": ["#غیر_قهوه", "#آبمیوه", "#پسته"]
+    },
+    {
+      "id": 519,
+      "name": "شیر موز خرما",
+      "price": 115000,
+      "category": "juice",
+      "image": "banana_date_milk.jpg",
+      "description": "شیر موز با خرمای مقوی",
+      "tags": ["#غیر_قهوه", "#آبمیوه", "#خرما"]
+    },
+    {
+      "id": 520,
+      "name": "شیر کاکائو",
+      "price": 85000,
+      "category": "juice",
+      "image": "chocolate_milk.jpg",
+      "description": "شیر با طعم کاکائو غلیظ",
+      "tags": ["#غیر_قهوه", "#آبمیوه", "#کاکائو"]
+    },
+    {
+      "id": 521,
+      "name": "شیر پسته",
+      "price": 115000,
+      "category": "juice",
+      "image": "pistachio_milk.jpg",
+      "description": "شیر با طعم پسته ایرانی",
+      "tags": ["#غیر_قهوه", "#آبمیوه", "#پسته"]
+    },
+    {
+      "id": 522,
+      "name": "شیر موز کره بادام زمینی",
+      "price": 105000,
+      "category": "juice",
+      "image": "banana_peanut_butter_milk.jpg",
+      "description": "شیر موز با کره بادام زمینی مقوی",
+      "tags": ["#غیر_قهوه", "#آبمیوه", "#کره_بادام_زمینی"]
+    },
+    {
+      "id": 703,
+      "name": "آب هندوانه",
+      "price": 85000,
+      "category": "juice",
+      "image": "watermelon_juice.png",
+      "description": "آب هندوانه تازه و خنک",
+      "tags": ["#غیر_قهوه", "#آبمیوه", "#هندوانه"]
+    },
+    {
+      "id": 704,
+      "name": "آب طالبی",
+      "price": 75000,
+      "category": "juice",
+      "image": "melon_juice.jpg",
+      "description": "آب طالبی شیرین و تازه",
+      "tags": ["#غیر_قهوه", "#آبمیوه", "#طالبی"]
+    },
+    {
+      "id": 705,
+      "name": "آب هویج",
+      "price": 75000,
+      "category": "juice",
+      "image": "carrot_juice.jpg",
+      "description": "آب هویج مقوی و سالم",
+      "tags": ["#غیر_قهوه", "#آبمیوه", "#هویج"]
+    },
+    {
+      "id": 706,
+      "name": "آب هویج بستنی",
+      "price": 90000,
+      "category": "juice",
+      "image": "carrot_icecream_juice.jpg",
+      "description": "آب هویج با بستنی خامه‌ای",
+      "tags": ["#غیر_قهوه", "#آبمیوه", "#بستنی"]
+    },
+    {
+      "id": 707,
+      "name": "آب طالبی بستنی",
+      "price": 95000,
+      "category": "juice",
+      "image": "melon_icecream_juice.jpg",
+      "description": "آب طالبی با بستنی خنک",
+      "tags": ["#غیر_قهوه", "#آبمیوه", "#بستنی"]
+    },
+    {
+      "id": 708,
+      "name": "بولفراگ",
+      "price": 110000,
+      "category": "juice",
+      "image": "bullfrog_juice.jpg",
+      "description": "میکس آبمیوه انرژی‌زا",
+      "tags": ["#غیر_قهوه", "#آبمیوه", "#انرژی_زا"]
+    },
+    {
+      "id": 709,
+      "name": "باب مارلی",
+      "price": 125000,
+      "category": "juice",
+      "image": "bob_marley_juice.jpg",
+      "description": "میکس میوه‌های استوایی",
+      "tags": ["#غیر_قهوه", "#آبمیوه", "#استوایی"]
+    },
+    {
+      "id": 601,
+      "name": "کروسان ساده",
+      "price": 65000,
+      "category": "desserts",
+      "image": "croissant.jpg",
+      "description": "کروسان ترد و تازه",
+      "tags": ["#دسر", "#کروسان"]
+    },
+    {
+      "id": 602,
+      "name": "کروسان شکلات",
+      "price": 90000,
+      "category": "desserts",
+      "image": "chocolate_croissant.jpg",
+      "description": "کروسان با فیلینگ شکلات",
+      "tags": ["#دسر", "#شکلات"]
+    },
+    {
+      "id": 603,
+      "name": "کروسان لوتوس",
+      "price": 85000,
+      "category": "desserts",
+      "image": "lotus_croissant.jpg",
+      "description": "کروسان با طعم بیسکویت لوتوس",
+      "tags": ["#دسر", "#لوتوس"]
+    },
+    {
+      "id": 604,
+      "name": "کروسان نوتلا",
+      "price": 105000,
+      "category": "desserts",
+      "image": "nutella_croissant.jpg",
+      "description": "کروسان با نوتلا خامه‌ای",
+      "tags": ["#دسر", "#نوتلا"]
+    },
+    {
+      "id": 605,
+      "name": "کروسان کره بادام زمینی",
+      "price": 85000,
+      "category": "desserts",
+      "image": "peanut_butter_croissant.jpg",
+      "description": "کروسان با کره بادام زمینی مقوی",
+      "tags": ["#دسر", "#کره_بادام_زمینی"]
+    },
+    {
+      "id": 606,
+      "name": "کروسان بستنی",
+      "price": 85000,
+      "category": "desserts",
+      "image": "icecream_croissant.jpg",
+      "description": "کروسان با بستنی وانیلی",
+      "tags": ["#دسر", "#بستنی"]
+    },
+    {
+      "id": 607,
+      "name": "وافل ساده",
+      "price": 105000,
+      "category": "desserts",
+      "image": "waffle.jpg",
+      "description": "وافل ترد و تازه",
+      "tags": ["#دسر", "#وافل"]
+    },
+    {
+      "id": 608,
+      "name": "وافل شکلات",
+      "price": 125000,
+      "category": "desserts",
+      "image": "chocolate_waffle.jpg",
+      "description": "وافل با سس شکلات غلیظ",
+      "tags": ["#دسر", "#شکلات"]
+    },
+    {
+      "id": 609,
+      "name": "وافل بستنی",
+      "price": 150000,
+      "category": "desserts",
+      "image": "icecream_waffle.jpg",
+      "description": "وافل با بستنی خامه‌ای",
+      "tags": ["#دسر", "#بستنی"]
+    },
+    {
+      "id": 610,
+      "name": "وافل موز شکلات",
+      "price": 155000,
+      "category": "desserts",
+      "image": "chocolate_banana_waffle.jpg",
+      "description": "وافل با موز و شکلات",
+      "tags": ["#دسر", "#موز"]
+    },
+    {
+      "id": 611,
+      "name": "وافل نوتلا",
+      "price": 145000,
+      "category": "desserts",
+      "image": "nutella_waffle.jpg",
+      "description": "وافل با نوتلا خامه‌ای",
+      "tags": ["#دسر", "#نوتلا"]
+    },
+    {
+      "id": 612,
+      "name": "کیک بستنی",
+      "price": 0,
+      "category": "desserts",
+      "image": "icecream_cake.jpg",
+      "description": "کیک خنک با بستنی",
+      "tags": ["#دسر", "#بستنی"]
+    },
+    {
+      "id": 613,
+      "name": "کیک تیرامیسو",
+      "price": 0,
+      "category": "desserts",
+      "image": "tiramisu_cake.png",
+      "description": "کیک تیرامیسو کلاسیک",
+      "tags": ["#دسر", "#تیرامیسو"]
+    },
+    {
+      "id": 614,
+      "name": "کیک شکلاتی",
+      "price": 0,
+      "category": "desserts",
+      "image": "chocolate_cake.png",
+      "description": "کیک شکلاتی غلیظ و خوشمزه",
+      "tags": ["#دسر", "#شکلات"]
+    },
+
+    {
+      "id": 615,
+      "name": "وافل موز شکلات بستنی",
+      "price": 195000,
+      "category": "desserts",
+      "image": "banana_chocolate_icecream_waffle.png",
+      "description": "وافل لوکس با موز، شکلات و بستنی",
+      "tags": ["#دسر_ویژه", "#موز", "#بستنی"]
+    },
+    {
+      "id": 616,
+      "name": "وافل نوتلا بستنی",
+      "price": 175000,
+      "category": "desserts",
+      "image": "nutella_icecream_waffle.jpg",
+      "description": "وافل با نوتلا و بستنی خامه‌ای",
+      "tags": ["#دسر_ویژه", "#نوتلا", "#بستنی"]
+    },
+    {
+      "id": 617,
+      "name": "وافل موز نوتلا بستنی",
+      "price": 220000,
+      "category": "desserts",
+      "image": "banana_nutella_icecream_waffle.jpg",
+      "description": "وافل لوکس با موز، نوتلا و بستنی",
+      "tags": ["#دسر_ویژه", "#نوتلا", "#موز"]
+    },
+    {
+      "id": 618,
+      "name": "وافل لوتوس",
+      "price": 130000,
+      "category": "desserts",
+      "image": "lotus_waffle.jpg",
+      "description": "وافل با طعم بیسکویت لوتوس",
+      "tags": ["#دسر_ویژه", "#لوتوس"]
+    },
+    {
+      "id": 619,
+      "name": "وافل لوتوس بستنی",
+      "price": 165000,
+      "category": "desserts",
+      "image": "lotus_icecream_waffle.jpg",
+      "description": "وافل لوتوس با بستنی خامه‌ای",
+      "tags": ["#دسر_ویژه", "#لوتوس", "#بستنی"]
+    },
+
+    {
+      "id": 620,
+      "name": "وافل ویژه",
+      "price": 245000,
+      "category": "desserts",
+      "image": "lotus_waffleـvije.png",
+      "description": "وافل با طعم بیسکویت لوتوس",
+      "tags": ["#دسر_ویژه", "#لوتوس"]
+    },
+
+    {
+      "id": 621,
+      "name": " سن سباستین",
+      "price": 0,
+      "category": "desserts",
+      "image": "sansebastian.png",
+      "description": "وافل با طعم بیسکویت لوتوس",
+      "tags": ["#دسر_ویژه", "#لوتوس"]
+    },
+
+    {
+      "id": 622,
+      "name": " رد ولولت ",
+      "price": 0,
+      "category": "desserts",
+      "image": "redvelvelt.jpg",
+      "description": "وافل با طعم بیسکویت لوتوس",
+      "tags": ["#دسر_ویژه", "#لوتوس"]
+    },
+
+
+
+    {
+      "id": 801,
+      "name": "نیمرو",
+      "price": 60000,
+      "category": "breakfasts",
+      "image": "fried_egg.jpg",
+      "description": "نیمرو تازه و ساده برای صبحانه",
+      "tags": ["#صبحانه", "#تخم_مرغ"]
+    },
+    {
+      "id": 802,
+      "name": "املت ساده",
+      "price": 80000,
+      "category": "breakfasts",
+      "image": "simple_omelette.jpg",
+      "description": "املت سبک و خوشمزه",
+      "tags": ["#صبحانه", "#تخم_مرغ"]
+    },
+    {
+      "id": 803,
+      "name": "سوسیس تخم مرغ",
+      "price": 105000,
+      "category": "breakfasts",
+      "image": "egg_sausage.jpg",
+      "description": "ترکیب سوسیس و تخم مرغ برای صبحانه",
+      "tags": ["#صبحانه", "#سوسیس"]
+    },
+    {
+      "id": 804,
+      "name": "عدسی",
+      "price": 85000,
+      "category": "breakfasts",
+      "image": "lentil_stew.png",
+      "description": "عدسی مقوی و سنتی",
+      "tags": ["#صبحانه", "#سنتی"]
+    },
+    {
+      "id": 805,
+      "name": "خوراک لوبیا",
+      "price": 85000,
+      "category": "breakfasts",
+      "image": "bean_stew.jpg",
+      "description": "لوبیا پخته سنتی و مقوی",
+      "tags": ["#صبحانه", "#سنتی"]
+    },
+    {
+      "id": 806,
+      "name": "اوتمیل",
+      "price": 110000,
+      "category": "breakfasts",
+      "image": "oatmeal.jpg",
+      "description": "اوتمیل سالم برای صبحانه‌ای سبک",
+      "tags": ["#صبحانه", "#سالم"]
+    },
+    {
+      "id": 901,
+      "name": "پاستا",
+      "price": 255000,
+      "category": "hot_foods",
+      "image": "pasta.jpg",
+      "description": "پاستا با سس مخصوص",
+      "tags": ["#غذا", "#پاستا"]
+    },
+    {
+      "id": 903,
+      "name": "اسنک",
+      "price": 95000,
+      "category": "hot_foods",
+      "image": "snack.jpg",
+      "description": "اسنک ترد و خوشمزه",
+      "tags": ["#غذا", "#اسنک"]
+    },
+    {
+      "id": 904,
+      "name": "سیب زمینی ساده",
+      "price": 135000,
+      "category": "hot_foods",
+      "image": "plain_potato.png",
+      "description": "سیب زمینی سرخ شده ساده",
+      "tags": ["#غذا", "#سیب_زمینی"]
+    },
+    {
+      "id": 905,
+      "name": "سیب زمینی با سس آلفردو",
+      "price": 185000,
+      "category": "hot_foods",
+      "image": "alfredo_potato.png",
+      "description": "سیب زمینی با سس آلفردو خامه‌ای",
+      "tags": ["#غذا", "#آلفردو"]
+    },
+    {
+      "id": 906,
+      "name": "سیب زمینی با سس پنیر",
+      "price": 185000,
+      "category": "hot_foods",
+      "image": "cheese_potato.jpg",
+      "description": "سیب زمینی با سس پنیر غلیظ",
+      "tags": ["#غذا", "#پنیر"]
+    },
+
+  
+    {
+      "id": 907,
+      "name": "ناگت مرغ ویژه",
+      "price": 250000,
+      "category": "hot_foods",
+      "image": "special_chicken_nuggets.jpg",
+      "description": "ناگت مرغ ترد و خوشمزه",
+      "tags": ["#غذا", "#ناگت"]
+    },
+
+    {
+      "id": 910,
+      "name": "فیله سوخاری با سیب زمینی  ",
+      "price": 210000,
+      "category": "hot_foods",
+      "image": "special_chicken_nuggetsـsibz.jpg",
+      "description": "ناگت مرغ ترد و خوشمزه",
+      "tags": ["#غذا", "#ناگت"]
+    },
+
+    {
+      "id": 908,
+      "name": "چیپس و پنیر",
+      "price": 105000,
+      "category": "hot_foods",
+      "image": "chips_and_cheese.jpg",
+      "description": "چیپس با پنیر ذوب شده",
+      "tags": ["#غذا", "#پنیر"]
+    },
+    {
+      "id": 1001,
+      "name": "آیس پک شکلاتی",
+      "price": 120000,
+      "category": "ice_packs",
+      "image": "chocolate_icepack.jpg",
+      "description": "آیس پک با طعم شکلات غلیظ",
+      "tags": ["#غیر_قهوه", "#آیس_پک", "#شکلات"]
+    },
+    {
+      "id": 1002,
+      "name": "آیس پک نوتلا",
+      "price": 130000,
+      "category": "ice_packs",
+      "image": "nutella_icepack.jpg",
+      "description": "آیس پک با نوتلا خامه‌ای",
+      "tags": ["#غیر_قهوه", "#آیس_پک", "#نوتلا"]
+    },
+    {
+      "id": 1003,
+      "name": "آیس پک موزی",
+      "price": 125000,
+      "category": "ice_packs",
+      "image": "banana_icepack.jpg",
+      "description": "آیس پک با طعم موز تازه",
+      "tags": ["#غیر_قهوه", "#آیس_پک", "#موز"]
+    },
+
+    {
+      "id": 1005,
+      "name": "آیس پک کره بادام",
+      "price": 130000,
+      "category": "ice_packs",
+      "image": "almond_butter_icepack.jpg",
+      "description": "آیس پک با کره بادام مقوی",
+      "tags": ["#غیر_قهوه", "#آیس_پک", "#کره_بادام"]
+    },
+    {
+      "id": 1006,
+      "name": "آیس پک کره گردو",
+      "price": 140000,
+      "category": "ice_packs",
+      "image": "walnut_butter_icepack.jpg",
+      "description": "آیس پک با کره گردو",
+      "tags": ["#غیر_قهوه", "#آیس_پک", "#کره_گردو"]
+    },
+    {
+      "id": 1007,
+      "name": "آیس پک بلوبری",
+      "price": 120000,
+      "category": "ice_packs",
+      "image": "blueberry_icepack.jpg",
+      "description": "آیس پک با طعم بلوبری تازه",
+      "tags": ["#غیر_قهوه", "#آیس_پک", "#بلوبری"]
+    },
+  
+    {
+      "id": 1009,
+      "name": "آیس پک طالبی",
+      "price": 110000,
+      "category": "ice_packs",
+      "image": "melon_icepack.jpg",
+      "description": "آیس پک با طعم طالبی خنک",
+      "tags": ["#غیر_قهوه", "#آیس_پک", "#طالبی"]
+    },
+    {
+      "id": 1010,
+      "name": "آیس پک انبه",
+      "price": 135000,
+      "category": "ice_packs",
+      "image": "mango_icepack.jpg",
+      "description": "آیس پک با طعم انبه استوایی",
+      "tags": ["#غیر_قهوه", "#آیس_پک", "#انبه"]
+    },
+    {
+      "id": 1011,
+      "name": "آیس پک توت فرنگی",
+      "price": 125000,
+      "category": "ice_packs",
+      "image": "strawberry_icepack.jpg",
+      "description": "آیس پک با طعم توت فرنگی تازه",
+      "tags": ["#غیر_قهوه", "#آیس_پک", "#توت_فرنگی"]
+    },
+    {
+      "id": 1012,
+      "name": "آیس پک اورئو کارامل",
+      "price": 130000,
+      "category": "ice_packs",
+      "image": "oreo_caramel_icepack.jpg",
+      "description": "آیس پک با اورئو و کارامل شیرین",
+      "tags": ["#غیر_قهوه", "#آیس_پک", "#اورئو"]
+    },
+    {
+      "id": 1013,
+      "name": "آیس پک معجون",
+      "price": 165000,
+      "category": "ice_packs",
+      "image": "potion_icepack.jpg",
+      "description": "آیس پک مقوی با ترکیب میوه‌ها",
+      "tags": ["#غیر_قهوه", "#آیس_پک", "#معجون"]
+    },
+    {
+      "id": 1101,
+      "name": "معجون کوچک",
+      "price": 165000,
+      "category": "potion",
+      "image": "large_potion.png",
+      "description": "معجون مقوی در سایز کوچک برای میان‌وعده",
+      "tags": ["#غیر_قهوه", "#فصلی", "#معجون"]
+    },
+    {
+      "id": 1102,
+      "name": "معجون بزرگ",
+      "price": 195000,
+      "category": "potion",
+      "image": "large_potion.png",
+      "description": "معجون مقوی در سایز بزرگ",
+      "tags": ["#غیر_قهوه", "#فصلی", "#معجون"]
+    }
+
+  ]
+}
